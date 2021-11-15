@@ -13,7 +13,7 @@ Welcome to the technical test for back-end developers. For this test, you'll nee
 
 ### Query
 
-You need to hit the GraphQL API at https://dev.gql.manufactured.net/graphql. You can use any tool, one example is [graphql-request](https://www.npmjs.com/package/graphql-request).
+You need to hit the GraphQL API at https://dev.gql.manufactured.com/graphql. You can use any tool, one example is [graphql-request](https://www.npmjs.com/package/graphql-request).
 
 The query you run should be similar to this (filling the gaps):
 
@@ -36,7 +36,7 @@ To authenticate the request, you'll need to include the header:
 
 ```
 {
-  "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzZXNzaW9uIiwic3ViIjoiY2t2OXZqMHMxNjExNDFmbWsweXlrdzE3diIsImlzcyI6Imh0dHBzOi8vZGV2LmdxbC5tYW51ZmFjdHVyZWQubmV0LyJ9.Cck2kPTN77b0AYdY3nDaF1Ay6-zlBXoJdqS2EZVjuxBe4tsbz_YZyrZshvnKQDefkZyrPfkuKEl2wdVOhZeolA"
+  "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzZXNzaW9uIiwic3ViIjoiY2t2OXZqMHMxNjExNDFmbWsweXlrdzE3diIsImlzcyI6Imh0dHBzOi8vZGV2LmdxbC5tYW51ZmFjdHVyZWQuY29tLyJ9.XMK-SXAkgErmqHz4Z2i-mBdYEmWCq240STfFpARYgbjpnRUDP8vwu3fbHAbd5yKRDZd_qaQO0xrWlvNw5X1GCw"
 }
 ```
 
@@ -44,7 +44,7 @@ The `$channelId` is `ckv9vm14w62991fmkeqjmii45` and the `$pageSize` should be 20
 
 You should analyze the `text` property of each `Message` (not `richText` or `fullText`)
 
-You can check the docs for the query by going to https://dev.gql.manufactured.net/graphql and clicking `DOCS` on the right side. The first query (`channel`) is the one you need. Here's a GIF to hopefully save you some time:
+You can check the docs for the query by going to https://dev.gql.manufactured.com/graphql and clicking `DOCS` on the right side. The first query (`channel`) is the one you need. Here's a GIF to hopefully save you some time:
 
 ![Docs](channel-docs.gif)
 
