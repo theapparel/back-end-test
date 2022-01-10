@@ -36,11 +36,11 @@ To authenticate the request, you'll need to include the header:
 
 ```
 {
-  "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzZXNzaW9uIiwic3ViIjoiY2t4Z2tweGFxMTAwOWg5bWx1cWIzNHN3MyIsImlzcyI6Imh0dHBzOi8vZGV2LmdxbC5tYW51ZmFjdHVyZWQuY29tLyJ9.Oxo4BhczGZ_5o6fiyAIAjY8Y5Ev0VEHddDU60JVqM-aSleqOibunTZ7FstXQZxluHE5XK_p2xTB5IChioQoO1g"
+  "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzZXNzaW9uIiwic3ViIjoiY2t5OHp4enF0MzA4MjQwZm1sMjF3d2s0dmgiLCJpc3MiOiJodHRwczovL2Rldi5ncWwubWFudWZhY3R1cmVkLmNvbS8ifQ.ZWaLJq4BnzQrv08SCKxMj3Maj1m4gd7mcBYL4w8GdfbIA_QH9OL1pPXblRrOz-rHMl8_3MXfo3IOFdZumgFVNw"
 }
 ```
 
-The `$channelId` is `ckxgktddt1878h9ml6jy7oq2b` and the `$pageSize` should be 20. You'll load messages in batches of 20 so you'll need to implement pagination. You can either use offset-based pagination by passing an `input.page.offset` or cursor-based by passing a cursor in `input.page.after`.
+The `$channelId` is `cky902c9f317160fml1bja26yy` and the `$pageSize` should be 20. You'll load messages in batches of 20 so you'll need to implement pagination. You can either use offset-based pagination by passing an `input.page.offset` or cursor-based by passing a cursor in `input.page.after`.
 
 You should analyze the `text` property of each `Message` (not `richText` or `fullText`)
 
